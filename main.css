@@ -4,6 +4,28 @@ body {
   color: white;
 }
 
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: grey;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: ivory;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+
 .nyan{
   z-index:10;
   position:absolute;
