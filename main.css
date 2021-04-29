@@ -1,5 +1,10 @@
 
 body{background:#0f4d8f;}
+
+color {
+  white
+}
+
 .nyan{
   z-index:10;
   position:absolute;
