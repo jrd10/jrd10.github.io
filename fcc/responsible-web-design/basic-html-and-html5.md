@@ -35,11 +35,24 @@
 
 - Dead link with hash (#) symbol (for test or maintenance)
   - `< ... href="#" ... >`
-- 
+
+- Turn an image into a link
+  - `<a ..><img ... ></a>`
+  - Insert the image as link text
+
+- Bulleted Unordered list
+```
+<ul>
+  <li>milk</li>
+  <li>cheese</li>
+</ul>
+
+```
+
 
 
 ## Introduction of HTML5 elements
 - `main`, `header`, `footer`, `nav`, `video`, `article`, `section`
 - Allow to structure all the code
 
-- 
+
