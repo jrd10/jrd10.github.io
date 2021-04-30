@@ -49,10 +49,29 @@
 
 ```
 
+- Ordered list
+```
+<ol>
+  <li>milk</li>
+  <li>cheese</li>
+</ol>
 
+```
 
 ## Introduction of HTML5 elements
 - `main`, `header`, `footer`, `nav`, `video`, `article`, `section`
 - Allow to structure all the code
+
+## Web forms with `input` attribut
+  - Text input
+  - `<input type="text">`: <input type="text">
+  - Add a `placeorder` in the text field
+  - `<input type="text" placeholder="Ceci est mon placehorder."`: <i>nput type="text" placeholder="Ceci est mon placehorder."
+
+
+
+
+
+
 
 
