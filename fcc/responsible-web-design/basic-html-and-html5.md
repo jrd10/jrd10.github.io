@@ -62,16 +62,58 @@
 - `main`, `header`, `footer`, `nav`, `video`, `article`, `section`
 - Allow to structure all the code
 
-## Web forms with `input` attribut
-  - Text input
+## Web forms with `input` and `form` attributs
+- Several attributes has to be known
+- Text input
   - `<input type="text">`: <input type="text">
   - Add a `placeorder` in the text field
-  - `<input type="text" placeholder="Ceci est mon placehorder."`: input type="text" placeholder="Ceci est mon placehorder."
+  - `<input type="text" placeholder="Ceci est mon placehorder."`
+- web form general code
+```
+<form action="url-where-you-want-to-submit-form-data">
+  <inut>
+</form>
+```
+- Add a 'submit' button
+  - Inside and often at the end of the form code
+```
+<form action="link">
+  ...
+  <button type="submit">Button text</button>
+</form>
+```
 
+- Make text required
+`<input type="text" required>`
 
-
-
-
-
+- Set of radio buttons
+- Be attentive to `name` and `label`
+```
+<form action="link">
+  ...
+  <input type="radio" name="radio button group name">Radio button text 
+  ...
+</form>
+```
+ - It is a good practice to use `id` and `label for="id name"` for each radio button
+  - Each radio button wrapped in its own label. `for` is for each radio button `input` `id`
+  - Same `name` for radio buttons of the same group 
+```
+<form action="https://#">
+    <label for="indoor"><input id="indoor" type="radio" name="indoor-outdoor"> Indoor</label>
+    <label for="outdoor"><input id="outdoor" type="radio" name="indoor-outdoor"> Outdoor</label><br>
+    ...
+    <button type="submit">Submit</button>
+  </form>
+  ```
+- `for` is for "input" id and `name` to group radio button
+```
+<form>
+  <label for="this-id"><input type="radio" id="this-id" name="the-group">Indoor</label>  
+  <label for="other-id"><input type="radio" id="other-id" name="the-group">Outdoor</label>    
+  ...
+  <button type="submit">Test it!</button>
+<form>
+```
 
 
