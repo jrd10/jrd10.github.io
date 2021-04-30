@@ -97,7 +97,7 @@
 ```
  - It is a good practice to use `id` and `label for="id name"` for each radio button
   - Each radio button wrapped in its own label. `for` is for each radio button `input` `id`
-  - Same `name` for radio buttons of the same group 
+  - Same `name` for all the set elements
 ```
 <form action="https://#">
     <label for="indoor"><input id="indoor" type="radio" name="indoor-outdoor"> Indoor</label>
@@ -115,5 +115,25 @@
   <button type="submit">Test it!</button>
 <form>
 ```
+- Set of checkbox
+`<label for="loving"><input id="loving" type="checkbox" name="personality"> Loving</label>`
+- `value` attribute to get the checkbox/radio button answer
+- Most of time, `id` value is used for the `value` data
+- Don't forget `name` otherwise the default answer is `on`
+<label for="indoor">
+  <input id="indoor" value="indoor" type="radio" name="indoor-outdoor">Indoor
+</label>
+<label for="outdoor">
+  <input id="outdoor" value="outdoor" type="radio" name="indoor-outdoor">Outdoor
+</label>
+```
+- check Radio buttons and checkboxes with `checked`
+`<input type="radio" name="test-name" checked>`
 
+- `div` element is a container
+`<div>... </div>
 
+- html page structure
+- '<!DOCTYPE html><html> ... </html>'
+- `<head> ... </head> et <body> ... </body>`
+- Inside head: `link`, `meta`, `title`, `style`
