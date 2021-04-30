@@ -23,7 +23,7 @@
   - `<img src="link to your image with .xxx" alt="text description" title="text when mouse over image"> - 
 
 - Link to external page with anchor (<a>) element
-  - <a href="Lien vers la page" title="Text when mouse over link text">Link text</a>  
+  - `<a href="Lien vers la page" title="Text when mouse over link text">Link text</a>`
 
 - Link to internal section of your page with anchor (<a>) element
   - First, create an `id` attribute : `<h2 id="link_here">My text</h2>`
