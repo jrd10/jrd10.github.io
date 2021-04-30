@@ -31,10 +31,10 @@
 
 - Nest an Anchor Element within a Paragraph
 - `target` attribute to open the link in a new tab
-  - < ... target="_blank" ... >
+  - `< ... target="_blank" ... >`
 
 - Dead link with hash (#) symbol (for test or maintenance)
-  - < ... href="#" ... >
+  - `< ... href="#" ... >`
 - 
 
 
