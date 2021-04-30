@@ -66,7 +66,7 @@
   - Text input
   - `<input type="text">`: <input type="text">
   - Add a `placeorder` in the text field
-  - `<input type="text" placeholder="Ceci est mon placehorder."`: <i>nput type="text" placeholder="Ceci est mon placehorder."
+  - `<input type="text" placeholder="Ceci est mon placehorder."`: input type="text" placeholder="Ceci est mon placehorder."
 
 
 
